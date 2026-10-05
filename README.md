@@ -26,3 +26,31 @@ Home → About → Products → Contact
 
 ## Changelog
 Version 1.0: Created the repository, README, sitemap and initial website structure.
+
+
+## Part 2
+
+### Part 2 Updates
+
+The DANDO Studio website has been updated for Part 2 based on the requirements and feedback from Part 1.
+
+The project continues to use HTML and CSS to develop the DANDO Studio T-shirt website.
+
+Changelog
+
+Part 2
+- Updated the website based on Part 1 feedback.
+- Improved the website structure and presentation.
+- Updated website content and project information.
+- Continued development of the DANDO Studio website.
+
+Part 1 Feedback
+- Applied the required corrections and improvements identified from the Part 1 feedback.
+- Improved the organisation and presentation of the website.
+
+ References
+
+- WEDE Part 2 Project Brief
+- DANDO Studio project proposal
+- Part 1 feedback
+- HTML and CSS documentation
