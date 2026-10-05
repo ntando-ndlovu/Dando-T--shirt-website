@@ -1,0 +1,299 @@
+/* =========================================
+   DANDO STUDIO
+   HOME PAGE STYLES
+   ========================================= */
+
+
+/* ---------- GENERAL PAGE ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 110px;
+    height: auto;
+}
+
+header h1 {
+    margin: 5px 0;
+    font-size: 38px;
+    letter-spacing: 6px;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+
+/* ---------- HORIZONTAL LINES ---------- */
+
+hr {
+    border: 0;
+    border-top: 1px solid #dddddd;
+    margin: 0;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+/* ---------- HERO SECTION ---------- */
+
+main > section:first-child {
+    text-align: center;
+    padding-top: 0;
+}
+
+main > section:first-child > img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+main > section:first-child h2 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+
+main > section:first-child p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 17px;
+}
+
+
+/* ---------- BUTTON / SHOP NOW ---------- */
+
+main a {
+    color: #000000;
+}
+
+main > section:first-child > a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 35px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+main > section:first-child > a:hover {
+    background-color: #333333;
+}
+
+
+/* ---------- FEATURED PRODUCTS ---------- */
+
+main > section:nth-of-type(2) {
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding-bottom: 30px;
+}
+
+article img {
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+article h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+article p {
+    margin: 5px 0;
+    color: #555555;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 12px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+article a:hover {
+    color: #666666;
+}
+
+
+/* ---------- ABOUT PREVIEW ---------- */
+
+main > section:nth-of-type(3) {
+    text-align: center;
+}
+
+main > section:nth-of-type(3) img {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+main > section:nth-of-type(3) p {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 17px;
+}
+
+main > section:nth-of-type(3) a {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    main > section:first-child > img {
+        height: 300px;
+    }
+
+    main > section:first-child h2 {
+        font-size: 28px;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    article img {
+        height: auto;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANDO Studio | Enquiry</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <img src="Images/logo.jpeg"
+             alt="DANDO Studio Logo"
+             width="150">
+
+        <h1>DANDO STUDIO</h1>
+        <p>Product Enquiry</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="products.html">Shop</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+
+            <h2>Make an Enquiry</h2>
+
+            <img src="Images/tshirt1.jpeg"
+                 alt="DANDO Studio T-Shirt"
+                 width="350">
+
+            <p>
+                Have a question about our T-shirts? Complete the form
+                below and a member of the DANDO Studio team can assist you.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Enquiry Form -->
+        <section>
+
+            <h2>Product Enquiry Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="fullname">Full Name:</label>
+                <br>
+
+                <input type="text"
+                       id="fullname"
+                       name="fullname"
+                       required>
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <br>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       required>
+
+                <br><br>
+
+                <label for="product">Product:</label>
+                <br>
+
+                <select id="product" name="product">
+
+                    <option value="classic">
+                        Classic DANDO T-Shirt
+                    </option>
+
+                    <option value="street">
+                        Street T-Shirt
+                    </option>
+
+                    <option value="everyday">
+                        Everyday T-Shirt
+                    </option>
+
+                    <option value="premium">
+                        Premium T-Shirt
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <label for="size">Preferred Size:</label>
+                <br>
+
+                <select id="size" name="size">
+
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="xl">XL</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="message">Your Enquiry:</label>
+                <br>
+
+                <textarea id="message"
+                          name="message"
+                          rows="7"
+                          cols="40"
+                          placeholder="Type your enquiry here..."
+                          required></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit Enquiry">
+
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 DANDO Studio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
