@@ -54,3 +54,24 @@ Part 1 Feedback
 - DANDO Studio project proposal
 - Part 1 feedback
 - HTML and CSS documentation
+
+  Part 3: Changelog
+
+DANDO Studio Website Updates
+
+The following updates and improvements were made to the DANDO Studio website:
+
+- Updated the website styling and layout using CSS.
+- Improved navigation between the website pages.
+- Added JavaScript form validation to the Contact and Enquiry pages.
+- Added email validation to help users correct invalid email addresses.
+- Added telephone number validation to the Enquiry form.
+- Added confirmation messages after form validation.
+- Implemented an image lightbox on the Products page, allowing users to enlarge product images and close them by clicking outside the image or pressing Escape.
+- Improved the overall user experience and website interactivity.
+
+Technologies Used: HTML5, CSS3 and JavaScript.
+
+Developer: Ntandoyenkosi Ndlovu
+Project: DANDO Studio T-Shirt Website
+Year: 2026
